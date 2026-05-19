@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Productos - Catálogo</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+    background-image: url(file:///C|/Users/LAB2-PC26/Documents/55.png);
+}
+        
+        /* Menú básico */
+        nav { background: #eee; padding: 10px; text-align: center; border-bottom: 1px solid #ccc; }
+        nav a { margin: 0 10px; text-decoration: none; color: #000; font-size: 14px; }
+
+        /* Banner de foto concreto */
+        .banner-min { 
+            background: url('https://images.unsplash.com/photo-1542838132-92c53300491e?w=800') center;
+            background-size: cover;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 1px 1px 3px #000;
+        }
+
+        /* Listado sencillo */
+        .tabla-productos { width: 90%; margin: 20px auto; border-collapse: collapse; }
+        .tabla-productos td { padding: 10px; border-bottom: 1px solid #eee; }
+        .img-prod { width: 50px; height: 50px; object-fit: cover; border-radius: 4px; }
+        .precio { font-weight: bold; color: #27ae60; }
+        
+        button { cursor: pointer; background: #f4f4f4; border: 1px solid #ccc; padding: 5px 10px; }
+        
+        footer { text-align: center; font-size: 12px; padding: 20px; color: #666; }
+    </style>
+</head>
+<body>
+
+<nav>
+       <a href="index.html">Inicio</a>
+        <a href="file:///C|/Users/LAB2-PC26/Documents/catalogo.html">Productos</a>
+        <a href="file:///C|/Users/LAB2-PC26/Documents/oferta.html">Ofertas</a>
+        <a href="file:///C|/Users/LAB2-PC26/Documents/contacto.html">Contacto</a>
+		<a href="file:///C|/Users/LAB2-PC26/Documents/nosotros.html">NOSOTROS</a>
+        <a href="file:///C|/Users/LAB2-PC26/Documents/ubicacion.html">UBICACION</a>
+	
+    </nav>
+
+  
+        <h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CATÁLOGO</h1>
+  
+
+    <table class="tabla-productos">
+       
+        <tr>
+            <td><img src="https://images.unsplash.com/photo-1550989460-0adf9ea622e2?w=100" class="img-prod"></td>
+            <td><strong>Tomate Bola</strong><br><small>Por kilo</small></td>
+            <td class="precio">$35.00</td>
+            <td><button>Agregar</button></td>
+      </tr>
+        <tr>
+            <td><img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?w=100" class="img-prod"></td>
+            <td><strong>Leche Litro</strong><br><small>Envase 1L</small></td>
+            <td class="precio">$24.00</td>
+            <td><button>Agregar</button></td>
+        </tr>
+        <tr>
+            <td><img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=100" class="img-prod"></td>
+            <td><strong>Pollo Entero</strong><br><small>Por kilo</small></td>
+            <td class="precio">$85.00</td>
+            <td><button>Agregar</button></td>
+        </tr>
+</table>
+
+<footer>
+  &copy; 2026 Catálogo de Supermercado
+    </footer>
+
+</body>
+</html>

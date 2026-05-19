@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Ofertas - Mi Súper</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #444;
+    background-image: url(44.png);
+}
+        
+        /* Menú */
+        nav { background: #f8f8f8; padding: 15px; border-bottom: 1px solid #ddd; }
+        nav a { color: #333; margin: 0 15px; text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+
+        /* Banner con foto modesto */
+        .banner { 
+            background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?w=800'); 
+            background-size: cover;
+            background-position: center;
+            height: 200px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+            color: white;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+        }
+
+        /* Lista de ofertas */
+        .lista { padding: 30px; }
+        .producto-oferta { 
+            border-bottom: 1px solid #eee; 
+            padding: 15px; 
+            max-width: 500px; 
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .producto-oferta img { width: 60px; height: 60px; border-radius: 5px; }
+        
+        .precio-antes { color: #999; text-decoration: line-through; font-size: 14px; }
+        .precio-ahora { color: #c0392b; font-weight: bold; font-size: 18px; }
+
+        footer { padding: 20px; font-size: 12px; color: #888; border-top: 1px solid #eee; margin-top: 20px; }
+    body,td,th {
+    color: #000000;
+}
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="catalogo.html">Productos</a>
+        <a href="oferta.html">Ofertas</a>
+        <a href="contacto.html">Contacto</a>
+		<a href="nosotros.html">NOSOTROS</a>
+        <a href="ubicacion.html">UBICACION</a>
+    </nav>
+
+   
+<h1>Ofertas de la Semana</h1>
+    
+
+    <div class="lista">
+        
+        <div class="producto-oferta">
+            <img src="https://images.unsplash.com/photo-1615484477778-ca3b77940c25?w=100" alt="Manzana">
+            <div>
+                <strong>Manzana Roja</strong><br>
+                <span class="precio-antes">$40.00</span> 
+                <span class="precio-ahora">$28.00</span>
+            </div>
+            <button>Añadir</button>
+      </div>
+
+        <div class="producto-oferta">
+            <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?w=100" alt="Leche">
+            <div>
+                <strong>Leche de Galón</strong><br>
+                <span class="precio-antes">$30.00</span> 
+                <span class="precio-ahora">$22.00</span>
+            </div>
+            <button>Añadir</button>
+        </div>
+
+        <div class="producto-oferta">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=100" alt="Pan">
+            <div>
+                <strong>Pan de Caja</strong><br>
+                <span class="precio-antes">$45.00</span> 
+                <span class="precio-ahora">$35.00</span>
+            </div>
+            <button>Añadir</button>
+        </div>
+
+</div>
+
+    <footer>
+    &copy; 2026 Mi Supermercado </footer>
+
+</body>
+</html>
